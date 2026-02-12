@@ -32,9 +32,9 @@ import {
 import profileImg from './assets/profile.png';
 import n8nLogo from './assets/n8n-logo.png';
 import pythonLogo from './assets/python-logo.png';
-import makeLogo from './assets/make-logo-real.png';
+import makeLogo from './assets/make-workflow.png';
 import multiAgentImg from './assets/multi-agent.png';
-import makeWorkflowImg from './assets/make-workflow.png';
+import makeWorkflowImg from './assets/make-logo-real.png';
 import multiAgentArchImg from './assets/multi-agent-arch.png';
 import n8nWorkflowImg from './assets/n8n-workflow.png';
 
@@ -140,7 +140,7 @@ const PythonLogo = () => (
 );
 
 const MakeLogo = () => (
-  <img src={makeLogo} alt="Make.com" className="w-auto h-5 object-contain mr-2" />
+  <img src={makeLogo} alt="Make.com" className="h-5 w-5 object-contain mr-2" />
 );
 
 const N8nLogo = () => (
